@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  /* background-color: black; */
+  background: rgb(9,9,121);
+  background: linear-gradient(126deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 100%);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.password-box{
+  background-color: white;
+  border-radius: 15px;
+  width: 350px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
+}
+.password-box h1{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.pass-input-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.pass-input-div .pass-input{
+  outline: none;
+  border: 1px solid black;
+  padding: 10px;
+  flex-basis: 80%;
+  height: 30px;
+  font-size: 1.1rem;
+  /* border-radius: 5px; */
+}
+.pass-input-div .copy-btn{
+  flex-basis: 20%;
+  height: 30px;
+  cursor: pointer ;
+  background: linear-gradient(126deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 30%);
+  color: white;
+  border: none;
+  /* border-radius: 5px; */
+}
+.pass-props{
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.pass-props label{
+  flex-basis: 80%;
+  font-size: 0.9rem;
+}
+.pass-props input{
+   width: 60px;
+   padding: 5px;
+   flex-basis: 20%;
+   outline: none;
+   border: 1px solid black;
+}
+.pass-props input[type="checkbox"]{
+ cursor: pointer;
+}
+.generate-btn{
+  margin: 10px 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(126deg, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 100%);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
